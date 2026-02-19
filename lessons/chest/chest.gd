@@ -55,6 +55,7 @@ func _on_mouse_entered() -> void:
 	var tween := create_tween()
 	tween.tween_method(set_outline_thickness, 3.0, 6.0, 0.08)
 
+
 func _on_mouse_exited() -> void: 
 	var tween := create_tween()
 	tween.tween_method(set_outline_thickness, 6.0, 3.0, 0.08)
